@@ -4,7 +4,7 @@
   3. Test1 with cache1 gives 800585 misses, Test1 witch cache2 gives 1558207 misses, Test2 with cache1 gives 10596833 misses, Test2 with cache2 gives 1581391.
   4. For low number of sets the associativity is important for the miss-ratio, but when the sets go up you se that the associativity does not matter so much anymore. The associativity also depends more on data caching , when the associativity gets bigger for instruction caching it does not affect.
   5. By looking at the graphs we see that if only intructions is stored in the cache we get the least amount of cachemisses, why both do not have the same result depends on that the cache fills up so much faster, otherhand the program problaly gonna be faster if we cache unified..
-  6. The minimize cost for the intruction cache is for cachesize 256 and associativity 8.
+  6. The minimize cost for the intruction cache is for cachesize 128 and associativity 1.
   
 
 
