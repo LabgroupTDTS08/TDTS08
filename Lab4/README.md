@@ -10,4 +10,4 @@ For the vliw2 design we tried to use one more BAU in our design in order to make
 
 Out of these two vliw designs vliw1 is much better. One thing to note thought is that none of the code in our basic block needed to use the MUL and FPU component and thus these could be seen as redudnat since the design could be done to preform the same without it, especially FPU since it has the secound highest cost of the components. However because this is only one basic block out of thousends within go.ss they could be needed in other basic blocks and thus it is good to have atleast one of every component within the architecure.
 
-##Apendix
+
